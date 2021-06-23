@@ -1,4 +1,4 @@
 pto_gen -o %outPto %imgs
-pano_modify --ldr-file=JPG -o %outPto %outPto
+pano_modify --hdr-file=TIF --ldr-file=JPG -o %outPto %outPto
 hugin_executor -a %outPto
 hugin_executor -p %outImg -s %outPto
